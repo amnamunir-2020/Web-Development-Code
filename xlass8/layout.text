@@ -1,0 +1,24 @@
+MAJOR SECTION OF WEB PAGE:
+HEADER (logo)   [height :120px ~ 180px]
+
+NAVIGATION (menu)[height: 40px ~ 60px]
+
+SLIDER [height:300px ~ 500px]
+
+CONTENT(big part images text)[height:min 500PX ~ AUTO]
+
+FOOTER(LAST) [height: 120px ~ 250px]
+
+
+
+
+WIDTH(all sections 100%)no need
+HEIGHT(sir experience:)
+DIV(by default 100% full width)
+
+
+RESET CODE:MUST WRITE:(4 IN 1)
+*{
+		margin:0;
+		padding: 0;
+	}

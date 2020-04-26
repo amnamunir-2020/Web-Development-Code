@@ -1,0 +1,31 @@
+.hw{
+	height: 100px;
+	width: 100px;
+}
+.right{
+	float: right;
+}
+.left{
+ float:left;
+}
+.box1{
+	background-color: grey;
+}
+.box2{
+	background-color: black;
+}
+.box3{
+	background-color: blue;
+}
+.box4{
+	background-color: red;
+}
+.box5{
+	background-color: purple;
+}
+.box6{
+	background-color: orange;
+}
+.clear{
+	clear: both;
+}

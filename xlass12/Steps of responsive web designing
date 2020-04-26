@@ -1,0 +1,47 @@
+Steps of responsive web designing
+------------------------------------
+1.	View Port
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+2. Embed Respond.js for old browser IE (8,9)
+<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+
+
+3. Flexible Media    //group selectors 2012 launch
+ img, iframe, video, embbed{
+ max-width:100%;
+ }
+
+ 4. Typography
+ convert px to em            by default font size 16.
+
+ Formula :    Target font 
+ 			---------------- Font Size em (14px/16px=.875em)
+ 				Base font
+
+5. Set Break Points 
+
+	Min. 990px(Desktop), 768px(Tablet), 480px (Smart Phone) --| (320px)
+
+6. Media Qeuries
+
+@media screen and(max-width:990px){//Desktop}
+
+@media screen and(max-width:768px){//Tablet}
+
+@media screen and(max-width:480px){//Smart Phone}
+
+
+7. Use Box Sizing
+
+html{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+
+
+
+
+

@@ -1,0 +1,114 @@
+*{
+  margin:0;      /*universal selector always write*/
+  padding: 0;
+}
+
+.container{
+	width: 1250px;
+	margin: 0 auto; /*<!-- center allign  so top-bottom-0 and right-left-auto-->*/
+    /*border: 1px solid #000;*/
+}
+.header{
+	border-top: 5px #0750a4 solid;
+}
+
+
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.left h1{
+	text-transform:capitalize;
+}
+.clear{
+	clear: both;
+}
+.pt-50{
+	padding-top: 50px;
+}
+
+
+/*.apply{
+	background-color: #0550a4;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 15px 25px;
+	text-decoration: none;
+
+}*/
+.nav{
+	height: 50px;
+	background-color:#cba834;
+}
+.nav li{
+	display: inline;
+}
+.nav li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	columns: white;
+	line-height: 50px;
+	padding: 8px 30px;
+	/*background-color: blue;*/
+}
+.nav li a:hover{
+	background-color: #fff;
+	color: #0750a4;
+
+}
+
+.slider{
+	background: url(../imgs/pics.jpg) no-repeat;
+	background-size: cover;
+	height: 580px;
+}
+.content{
+	background-color:#f2f5f6;
+}
+.allign{
+	text-align: center;
+}
+.column{
+	background-color: white;
+	width: 400px;
+	padding: 20px 0;
+	float: left;
+}
+.pt-50{
+	padding-top: 50px;
+}
+.allign h2{
+	padding:12px 0;
+	text-transform: capitalize;
+}
+.column h3{
+	text-transform: capitalize;
+}
+.column img{
+	height: 220px;
+}
+.column-center{
+	 margin-left:  25px;
+	margin-right:  25px;
+}
+.last{
+	background-color: #4b5255;
+	height: 200px;
+}
+.log img{width: 250px;
+	height: 120px
+
+}
+.left ul li{
+	display: inline;
+	text-transform: capitalize;
+
+
+}
+.line{
+	text-align: right;
+	background-color: white;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DateFunction-js</title>
+</head>
+<body>
+
+<p id='demo'></p>
+<p id='demo1'></p>
+<p id='demo1'></p>
+<script type="text/javascript">
+
+	//method use  function keyword
+
+
+//multiply my method name
+function multiply(val1,val2){
+	return val1*val2;
+
+}
+
+document.getElementById('demo').innerHTML=multiply(4,6);
+
+
+
+//addition my method name
+function addition(val1,val2){
+	return val1+val2;
+
+}
+
+document.getElementById('demo1').innerHTML=addition(4,6);
+
+
+
+
+
+
+
+//method use built-in current date
+	function displayDate() {
+
+		document.getElementById('demo').innerHTML=Date();
+	}
+
+
+
+	
+</script>
+
+
+
+
+<input type="button" name="btn" value="DATE" onclick="displayDate()">
+
+
+</body>
+</html>

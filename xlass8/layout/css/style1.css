@@ -1,0 +1,32 @@
+*{
+
+	margin: 0;
+	padding: 0;
+	/*border: 1px solid red;*/
+}
+.container{
+	width: 1250px; 
+	margin: 0 auto;
+
+}
+.header{
+	height: 120px;
+	background-color:  #000033;
+
+}
+.navigator{
+	height: 40px;
+	background-color: grey;
+}
+.slider{
+	height: 300px;
+	background-color: #009999;
+}
+.content{
+	height: 500px;
+	background-color:  #999999;
+}
+.footer{
+    height: 120px;
+    background-color: black;
+}

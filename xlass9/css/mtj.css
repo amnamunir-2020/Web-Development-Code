@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.header{
+	border-top:1px grey solid;
+}
+.container{
+	background-color: #fafafa;
+	width: 1250;
+	border:3px solid black;
+	margin: 0 auto;
+	height: 250px;
+}
+.logo{
+float: left;
+}
+.right{
+	float: right;
+}
+.pt{
+	padding: 10px 500px;
+}
+.clear{
+	clear: both;
+}
+.left img{
+}
+.primary-color{
+	color:grey;
+}
+.primary-bg{
+	background-color: white;
+}

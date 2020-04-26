@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 1250px;
+	margin: 0 auto;
+
+}
+
+.left{
+	float: left;
+
+}
+.right{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+.border{
+	border: 1px black solid;
+}
+
+	.primary-color{
+     color: gray;
+	}
+	.primary-bg{
+		background-color: purple;
+	}
+.header{
+	border-top: 4px blue solid;
+}

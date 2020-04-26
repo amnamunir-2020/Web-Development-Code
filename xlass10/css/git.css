@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{width: 1250px;
+margin: 0 auto;
+}
+.header{
+	border-top:6px #5c7885 solid;
+}
+
+
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+
+.border{border: 1px black solid;
+
+} 
+.left h1{
+	text-transform:uppercase;
+}
+.primary-color{
+color:#0750a4;
+}
+.primary-bg{
+	background-color: grey;
+}
+@font-face {
+	font-family: 'old_english';
+	src: url('../fonts/Olde English Regular.eot'), url('../fonts/Olde English Regular.woff'), url('../fonts/Olde English Regular.ttf') ,
+	 url('../fonts/Olde English Regular.svg');
+	font-weight: normal;
+	font-style: normal;
+}
